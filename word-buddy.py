@@ -4,7 +4,6 @@ import random
 import asyncio
 import os
 
-# قائمة الكلمات
 words_list = [
     "abandon - يتخلى عن",
     "ability - قدرة",
