@@ -1,4 +1,4 @@
 [phases.setup]
 language = "python"
-[phases]
+[phases.start]
 start = "python word-buddy.py"
