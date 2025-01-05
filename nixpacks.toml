@@ -1,4 +1,10 @@
-[phases.setup]
-language = "python"
+[phases]
+[phases.build]
+commands = [
+  "pip install -r requirements.txt"
+]
+
 [phases.start]
-start = "python word-buddy.py"
+commands = [
+  "python word-buddy.py"
+]
