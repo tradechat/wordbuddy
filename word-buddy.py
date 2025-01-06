@@ -1,4 +1,4 @@
-from telegram import Update
+from telegra import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 import random
 import asyncio
